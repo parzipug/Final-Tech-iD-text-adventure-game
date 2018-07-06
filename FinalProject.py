@@ -335,8 +335,3 @@ if player_input == "1":
         normalspace()
         death()
         sys.exit()
-
-
-
-
-
