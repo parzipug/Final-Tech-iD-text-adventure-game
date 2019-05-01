@@ -1,9 +1,9 @@
-import random
 import time
 import sys
 
 #Basic player information and item information
-player_username = input("Please Type in Username to Start Your Text-based Adventure! >>> ")
+lvl_select = input("Would you like to Experience This Game as the VietCong  ")
+player_username = input(" <<< Type Name To Start >>> ")
 player_health = 8
 player_backpack = ' '
 bat_clb_dmg = ' '
@@ -38,20 +38,16 @@ print(
 
 normalspace()
 
-print(" <<< Hint, use two word commands that are not complicated, and lowercase only. >>> ")
-
 whitespace(4)
 time.sleep(.8)
 
 print(
         "You are facing the opposite side of a large metal treasure chest-esque box, you cannot see the contents."
-
 )
 
 #End of beginning
 print(
         "Press 1 to open the chest."
-        
 )
 
 player_input = input(">>>")
@@ -65,7 +61,6 @@ if player_input == "1":
     
         print(
                 "You Found a Battered Club inside of the Chest, it seems to have remnants of \n intricate wood carving designs, that are now weared out and smoothed."
-
 )
     
 #Adding battered club to item list
